@@ -100,7 +100,7 @@ $start = 2; // Start from 2
 $end = 20;
 $step = 2;
 
-echo "<h3>Here Are Output</h3>";
+echo "<h4>Here Are Output</h4>";
 // Calling the functions to print even numbers
 echo "Using for loop: ";
 printEvenNumbersFor($start, $end, $step);
@@ -142,7 +142,7 @@ for ($i = 1; $i <= 50; $i++) {
 
     </div>
 </div>
-<h3>The "Skip Multiples of 5" output are:</h3>
+<h4>The "Skip Multiples of 5" output are:</h4>
 <?php
 for ($i = 1; $i <= 50; $i++) {
     if ($i % 5 == 0) {
@@ -194,7 +194,7 @@ while ($count < 10) {
 
 </pre>
 </div>
-
+<h4>Output are</h4>
 <?php
 $first = 0;
 $second = 1;
@@ -294,7 +294,7 @@ function printFibonacci($count) {
         $num2 = $num3;
     }
 }
-echo "<h3>The output are</h3>";
+echo "<h4>The output are</h4>";
 $number_of_terms = 15;
 printFibonacci($number_of_terms);
 ?>

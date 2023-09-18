@@ -40,7 +40,7 @@ while ($count < 10) {
 
 </pre>
 </div>
-
+    <h4>Output are</h4>
 <?php
 $first = 0;
 $second = 1;
